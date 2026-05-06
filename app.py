@@ -77,7 +77,7 @@ def alterar_estado_restaurante():
         if nome_restaurante == restaurante['nome']:
             restaurante_encontrado = True
             restaurante['ativo'] = not restaurante ['ativo']
-            mensagem = f'O restaurante {nome_restaurante} foi ativado com sucesso!' if restaurante ['ativo'] else f'O restaurante foi desativado com sucesso!'
+            mensagem = f'O restaurante {nome_restaurante} foi ativado com sucesso!!' if restaurante ['ativo'] else f'O restaurante foi desativado com sucesso!'
             print(mensagem)
         if not restaurante_encontrado:
             print('O restaurante nao foi encontrado!')
